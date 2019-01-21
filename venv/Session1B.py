@@ -54,3 +54,10 @@ print("HashCode of yourStudents is",id(yourStudents))
 
 # Conclusion: For SVC if data is same in 2 different containers, HashCode will be same
 #             For MVC even if data is same in 2 different containers, hash code will be different
+
+
+# a1 = 10, 20
+# a2 = 30, 40
+#
+# print(a1, id(a1))
+# print(a2, id(a2))

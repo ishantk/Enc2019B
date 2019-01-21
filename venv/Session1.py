@@ -37,6 +37,10 @@ print("HashCode of a in hexadecimal is", hex(id(a)))
 print("HashCode of a octal is", oct(id(a)))
 print("HashCode of a binary is", bin(id(a)))
 
+print("Hex of a is: ",hex(a))
+print("Octal of a is: ",oct(a))
+print("Binary of a is: ",bin(a))
+
 
 # Delete Operation
 del a
