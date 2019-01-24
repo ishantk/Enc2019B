@@ -30,12 +30,23 @@ def fun(n):
     whoIsGreatest = 0
 
 
-    # Code Here
+    for num in range(1, n+1):
+        if num%2 == 0:
+            sumEven = sumEven + num
+        else:
+            sumOdd = sumOdd + num
 
+
+    if sumOdd > sumEven:
+        whoIsGreatest = 1
+    else:
+        whoIsGreatest = 2
 
     return whoIsGreatest
 
+
 result = fun(123)
+
 if result is 1:
     print("Sum of Odds is Greater")
 else:
