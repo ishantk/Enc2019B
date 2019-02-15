@@ -81,13 +81,13 @@ class DBHelper:
 # dbRef.saveCustomerInDb(cRef1)
 # dbRef.updateCustomerInDb(cRef1)
 
-cRef1 = Customer(0, "Kia", "+91 88999 77777", 22, "Clover Homes")
-cRef2 = Customer(5, "Kim Watson", "+91 99899 99777", 30, "Clover Heights")
+# cRef1 = Customer(0, "Kia", "+91 88999 77777", 22, "Clover Homes")
+# cRef2 = Customer(5, "Kim Watson", "+91 99899 99777", 30, "Clover Heights")
 
 # cRef1.showCustomer()
 # cRef2.showCustomer()
 
-dbHelper = DBHelper()
+# dbHelper = DBHelper()
 # dbHelper.saveCustomerInDB(cRef1)
 # dbHelper.saveCustomerInDB(cRef2)
 
