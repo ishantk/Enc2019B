@@ -58,6 +58,3 @@ plt.figure(figsize=(15,10))
 sns.countplot(x="Nationality", data=filteredDf)
 plt.show()
 """
-
-
-
