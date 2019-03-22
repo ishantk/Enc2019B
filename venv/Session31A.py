@@ -57,7 +57,7 @@ Y = Y.reshape(len(Y), 1)
 # ************* SCI-KIT ************
 
 from sklearn.linear_model import LinearRegression
-from sklearn.metrics import r2_score
+from sklearn.metrics import r2_score, mean_absolute_error, mean_squared_error
 
 
 regression = LinearRegression()
@@ -79,3 +79,4 @@ print("Squared Error: ",r2err)
 plt.scatter(X, Y, color="black")
 plt.scatter(X, Y2, color="blue")
 plt.show()
+
