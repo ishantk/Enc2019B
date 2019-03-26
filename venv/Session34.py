@@ -4,6 +4,7 @@ import argparse
 
 print("OpenCV Version",cv.__version__)
 
+# Explore what dataset contains? https://docs.opencv.org/3.4.1/d7/d8b/tutorial_py_face_detection.html
 
 def detectAndDisplay(frame):
     frame_gray = cv.cvtColor(frame, cv.COLOR_BGR2GRAY)
